@@ -3,6 +3,7 @@
 # Lisence: MIT
 # Author: eSirPlayground
 # Youtube Channel: https://goo.gl/fvkdwm 
+# ubuntu-latest
 #=================================================
 
 name: Build_x86_64
@@ -23,7 +24,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.10
 
     steps:
     - name: Checkout
